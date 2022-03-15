@@ -1,0 +1,65 @@
+ .basic-modal-title {
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 0;
+    font-weight: 600;
+    color: rgba(51, 51, 51, 1);
+  }
+  .basic-modal {
+    text-align: center;
+    button {
+      margin: 0 10px;
+      padding: 0 25px;
+    }
+  }
+  
+  .error-col {
+    font-size: 14px;
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    line-height: 20px;
+  }
+  
+  .import-error {
+    width: 440px;
+    height: 172px;
+    background: rgba(242, 246, 252, 1);
+    padding: 20px;
+    margin: 20px 0;
+  
+    p {
+      margin: 0;
+      padding: 5px 0;
+      font-size: 14px;
+      font-family: PingFangSC-Regular;
+      font-weight: 400;
+      line-height: 20px;
+      color: rgba(245, 34, 45, 1);
+    }
+    p:first-child {
+      color: rgba(51, 51, 51, 1);
+    }
+  }
+  
+  .base-modal .ant-modal-body {
+    padding: 0;
+  }
+  
+  .base-modal-box {
+    overflow: auto;
+    padding: 18px;
+    position: relative;
+    &::-webkit-scrollbar {
+      display: block;
+    }
+    .right_view {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 5px;
+      cursor: ew-resize;
+    }
+  }
+  

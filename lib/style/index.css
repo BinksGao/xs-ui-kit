@@ -1,0 +1,111 @@
+.empty-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.empty-content img {
+  width: 280px;
+  height: 180px;
+}
+.empty-content p {
+  height: 20px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #666666;
+  line-height: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+.loading-content {
+  position: fixed;
+  z-index: 888888;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  overflow: auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.basic-modal-title {
+  font-size: 14px;
+  text-align: left;
+  margin-bottom: 0;
+  font-weight: 600;
+  color: #333333;
+}
+.basic-modal {
+  text-align: center;
+}
+.basic-modal button {
+  margin: 0 10px;
+  padding: 0 25px;
+}
+.error-col {
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #333333;
+  line-height: 20px;
+}
+.import-error {
+  width: 440px;
+  height: 172px;
+  background: #f2f6fc;
+  padding: 20px;
+  margin: 20px 0;
+}
+.import-error p {
+  margin: 0;
+  padding: 5px 0;
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  line-height: 20px;
+  color: #f5222d;
+}
+.import-error p:first-child {
+  color: #333333;
+}
+.base-modal .ant-modal-body {
+  padding: 0;
+}
+.base-modal-box {
+  overflow: auto;
+  padding: 18px;
+  position: relative;
+}
+.base-modal-box::-webkit-scrollbar {
+  display: block;
+}
+.base-modal-box .right_view {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 5px;
+  cursor: ew-resize;
+}
+
+.modal-edit {
+  display: flex;
+  align-items: center;
+}
+.modal-edit .modal-title {
+  display: inline-block;
+  padding: 0 12px 0 0px;
+  font-size: 16px;
+  color: #666;
+}
+.modal-edit .modal-tips {
+  font-size: 12px;
+  color: #FF3C3C;
+}
+
+/*# sourceMappingURL=index.css.map */

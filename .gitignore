@@ -1,0 +1,19 @@
+# 单个文件
+.DS_Store
+npm-debug.log
+npm-debug.log.*
+thumbs.db
+package-lock.json
+yarn-error.log
+yarn.lock
+package-lock.json
+rollup.config.js
+tsconfig.json
+
+# 文件夹
+node_modules/
+example/node_modules
+demo/node_modules
+.idea/
+.temp/*
+.cache-loader

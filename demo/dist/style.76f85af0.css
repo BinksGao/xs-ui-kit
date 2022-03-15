@@ -1,0 +1,23 @@
+.empty-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.empty-content img {
+  width: 280px;
+  height: 180px;
+}
+.empty-content p {
+  height: 20px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #666666;
+  line-height: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+
+
+/*# sourceMappingURL=/style.76f85af0.css.map */

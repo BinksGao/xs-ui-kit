@@ -1,0 +1,81 @@
+{
+  "name": "xs-ui-kit-alpha",
+  "version": "0.0.9",
+  "author": "xs",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup --config rollup.config.js",
+    "watch": "rollup --config rollup.config.js -w"
+  },
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "@emotion/babel-preset-css-prop": "^11.2.0",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-commonjs": "^21.0.2",
+    "@rollup/plugin-eslint": "^8.0.1",
+    "@rollup/plugin-image": "^2.1.1",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@rollup/plugin-replace": "^4.0.0",
+    "@types/node": "^17.0.21",
+    "@types/react": "^17.0.39",
+    "@types/react-loadable": "^5.5.6",
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "autoprefixer": "^10.4.2",
+    "babel": "^6.23.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-import": "^1.13.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^8.10.0",
+    "eslint-config-standard": "14.1.1",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "eslint-plugin-react": "^7.29.3",
+    "eslint-plugin-standard": "^5.0.0",
+    "eslint-plugin-typescript": "^0.14.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "postcss": "^8.4.8",
+    "postcss-loader": "^6.2.1",
+    "require": "^2.4.20",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-less": "^1.1.3",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-postcss-modules": "^2.0.2",
+    "rollup-plugin-prettier": "^2.2.2",
+    "rollup-plugin-styles": "^4.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.31.2"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.5",
+    "antd": "^4.19.1",
+    "classnames": "^2.3.1",
+    "less": "^4.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-draggable": "^4.4.4",
+    "react-loadable": "^5.5.0",
+    "react-router-dom": "^6.2.2",
+    "rollup": "^2.70.0",
+    "typescript": "^4.6.2"
+  },
+  "eslintIgnore": [
+    "node_modules"
+  ]
+}
