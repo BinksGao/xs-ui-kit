@@ -108,4 +108,25 @@
   color: #FF3C3C;
 }
 
+.operate_table .ant-table-body {
+  overflow: auto!important;
+}
+.operate_list-header {
+  padding: 20px 0 10px;
+}
+.operate_list-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+}
+.operate_list-btn {
+  font-size: 16px;
+}
+.operate_list-show {
+  display: block;
+}
+.operate_list-hide {
+  display: none;
+}
+
 /*# sourceMappingURL=index.css.map */

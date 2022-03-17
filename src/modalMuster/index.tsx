@@ -1,5 +1,4 @@
-import React, { ReactNode } from 'react'
-import { ModalProps } from 'antd/lib/modal'
+import React from 'react'
 import { BasicModal, BasicModalProps } from '../modal'
 import './index.less'
 interface EditModalProps extends BasicModalProps {
